@@ -12,8 +12,3 @@
 **Current Practice**
 
 **Problem**
-**Solution**
-**Impact**
-**Technical Approach**
-
-**Risks**
