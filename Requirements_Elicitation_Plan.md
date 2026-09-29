@@ -21,7 +21,7 @@ Finch Gerwe
   </br>Abstract revision and 3 user stories, 3 sets of acceptance criteria
   </br>Contribution: 25%
 </br>
-</br>J
+</br>Jakub Nowicki
   </br>Developer
   </br>3 user stories, 3 sets of acceptance criteria
   </br>Contribution: 25%
