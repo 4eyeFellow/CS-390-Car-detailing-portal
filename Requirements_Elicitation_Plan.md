@@ -8,12 +8,12 @@ Clients of Evansville Mobile Car Detailing
 Finch Gerwe 
   </br>Developer/SCRUM Master
   </br>Requirements Elicitation Plan and 3 user stories, 3 sets of acceptance criteria
-Zeke Grant 
+</br>Zeke Grant 
   </br>Developer
   </br>Project overview and 3 user stories
-Lily McConnell 
+</br>Lily McConnell 
   </br>Developer/Project Owner
   </br>Abstract revision and 3 user stories
-Jakub Nowicki 
+</br>Jakub Nowicki 
   </br>Developer
   </br>3 user stories, 3 sets of acceptance criteria
