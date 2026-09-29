@@ -4,3 +4,16 @@ We plan to begin with a Semi-Structured Interview where Lily will meet with Cars
 **Target Stakeholders**<br/><br/>
 Carson McConnell, owner of Evansville Mobile Car Detailing<br/>
 Clients of Evansville Mobile Car Detailing
+</br>
+Finch Gerwe 
+  </br>Developer/SCRUM Master
+  </br>Requirements Elicitation Plan and 3 user stories, 3 sets of acceptance criteria
+Zeke Grant 
+  </br>Developer
+  </br>Project overview and 3 user stories
+Lily McConnell 
+  </br>Developer/Project Owner
+  </br>Abstract revision and 3 user stories
+Jakub Nowicki 
+  </br>Developer
+  </br>3 user stories, 3 sets of acceptance criteria
