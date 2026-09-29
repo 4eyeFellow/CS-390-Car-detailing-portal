@@ -11,7 +11,7 @@ Finch Gerwe
   </br>Requirements Elicitation Plan and 3 user stories, 3 sets of acceptance criteria
   </br>Contribution: 25%
 </br>
-</br>Z
+</br>Zeke Grant
   </br>Developer
   </br>Project overview and 3 user stories, 3 sets of acceptance criteria
   </br>Contribution: 25%
