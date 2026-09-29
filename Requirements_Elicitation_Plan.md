@@ -18,7 +18,7 @@ Finch Gerwe
 </br>
 </br>Lily Kate McConnell
   </br>Developer/Project Owner
-  </br>Abstract revision and 3 user stories
+  </br>Abstract revision and 3 user stories, 3 sets of acceptance criteria
   </br>Contribution: 25%
 </br>
 </br>J
