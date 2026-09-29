@@ -10,7 +10,7 @@ Finch Gerwe
   </br>Requirements Elicitation Plan and 3 user stories, 3 sets of acceptance criteria
 </br>Z
   </br>Developer
-  </br>Project overview and 3 user stories
+  </br>Project overview and 3 user stories, 3 sets of acceptance criteria
 </br>L
   </br>Developer/Project Owner
   </br>Abstract revision and 3 user stories
