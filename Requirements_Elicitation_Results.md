@@ -6,22 +6,22 @@
 
 4. Requirements Change Analysis
 
-Finch Gerwe
-Developer/SCRUM Master
-Wrote up semi-structured interview, update the Project Overview, organized and coordinated , 1-3 task 1
-Contribution: 25%
+<\br>Finch Gerwe
+<\br>Developer/SCRUM Master
+<\br>Wrote up semi-structured interview, update the Project Overview, organized and coordinated , 1-3 task 1
+<\br>Contribution: 25%
 
-Zeke Grant
-Developer
-Wrote up semi-structured interview, revise product backlog
-Contribution: 25%
+<\br>Zeke Grant
+<\br>Developer
+<\br>Wrote up semi-structured interview, revise product backlog
+<\br>Contribution: 25%
 
-Lily Kate McConnell
-Developer/Project Owner
-Requirement change analysis, recorded and performed the semi-structured interview
-Contribution: 25%
+<\br>Lily Kate McConnell
+<\br>Developer/Project Owner
+<\br>Requirement change analysis, recorded and performed the semi-structured interview
+<\br>Contribution: 25%
 
-Jakub Nowicki
-Developer
-Wrote up semi-structured interview, revise product backlog
-Contribution: 25%
+<\br>Jakub Nowicki
+<\br>Developer
+<\br>Wrote up semi-structured interview, revise product backlog
+<\br>Contribution: 25%
