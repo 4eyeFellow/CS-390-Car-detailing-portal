@@ -1,4 +1,6 @@
-
+1. Elicitation Activity
+<\br>2. Questions/Topics
+3. Key Findings
 
 Finch Gerwe
 Developer/SCRUM Master
