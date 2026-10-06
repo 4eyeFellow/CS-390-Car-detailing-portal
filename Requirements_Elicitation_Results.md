@@ -1,6 +1,10 @@
 1. Elicitation Activity
-<\br>2. Questions/Topics
+   
+2. Questions/Topics
+   
 3. Key Findings
+
+4. Requirements Change Analysis
 
 Finch Gerwe
 Developer/SCRUM Master
