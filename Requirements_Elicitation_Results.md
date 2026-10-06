@@ -1,5 +1,9 @@
 1. Elicitation Activity
-   
+</br>Date: October 4th, 2026
+</br>Technique: Semi-Structured Interview
+</br>Stakeholders: Small business owner Carson McConnell
+</br>Team Members: Lily McConnell
+</br>Activity Overview: Met in person to discuss a set of topics and questions determined by the rest of the team and adjusted during the interview by Lily to clarify, finished by presenting our intial proposed solution for feedback.
 2. Questions/Topics
    
 3. Key Findings
