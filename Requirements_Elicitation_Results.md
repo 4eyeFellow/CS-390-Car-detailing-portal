@@ -45,7 +45,7 @@
 </br>Requirement change analysis, recorded and performed the semi-structured interview
 </br>Contribution: 25%
 
-</br>J
+</br>Jakub Nowicki
 </br>Developer
-</br>Wrote up semi-structured interview, revise product backlog
+</br>Revised product backlog: updated user stories #5, #6, #7, #11 and merged #9 into #8 based on interview findings, created new user stories #23, #25, #26
 </br>Contribution: 25%
