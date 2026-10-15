@@ -34,17 +34,17 @@
 </br>Wrote up semi-structured interview, update the Project Overview, listed key findings, questions/topics, and elicitation activity
 </br>Contribution: 25%
 
-</br>Zeke Grant
+</br>Z
 </br>Developer
 </br>Wrote up semi-structured interview, revise product backlog
 </br>Contribution: 25%
 
-</br>Lily Kate McConnell
+</br>L
 </br>Developer/Project Owner
 </br>Requirement change analysis, recorded and performed the semi-structured interview
 </br>Contribution: 25%
 
-</br>Jakub Nowicki
+</br>J
 </br>Developer
 </br>Wrote up semi-structured interview, revise product backlog
 </br>Contribution: 25%
