@@ -35,7 +35,7 @@
 </br>Wrote up semi-structured interview, update the Project Overview, listed key findings, questions/topics, and elicitation activity
 </br>Contribution: 25%
 
-</br>Z
+</br>Zeke Grant
 </br>Developer
 </br>Wrote up semi-structured interview, revise product backlog
 </br>Contribution: 25%
