@@ -4,6 +4,7 @@
 </br>Stakeholders: Small business owner Carson McConnell
 </br>Team Members: Lily McConnell
 </br>Activity Overview: Met in person to discuss a set of topics and questions determined by the rest of the team and adjusted during the interview by Lily to clarify, finished by presenting our intial proposed solution for feedback.
+</br> LINKS TO INTERVIEW RECORDING, TRANSCRIPT, NOTES, & CONSENT FORM: https://docs.google.com/document/d/17U6nFQCpzwBrqlfj5LmGllHPcx4q_-m08BT_RYFG5Ks/edit?usp=sharing
 
 </br>2. Questions/Topics
 </br>What does the current process look like?
@@ -39,7 +40,7 @@
 </br>Wrote up semi-structured interview, revise product backlog
 </br>Contribution: 25%
 
-</br>L
+</br>Lily Kate McConnell
 </br>Developer/Project Owner
 </br>Requirement change analysis, recorded and performed the semi-structured interview
 </br>Contribution: 25%
