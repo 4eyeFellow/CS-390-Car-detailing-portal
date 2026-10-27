@@ -31,8 +31,9 @@ These were chosen because they provide a logical foundation of fundamental featu
 # Task 3: Software Design
 
  1. Class Diagram (Structural Design)
+ </br> uploaded as ClassDiagram.png in repository
 
- 2. Sequence Diagram (Behavioral Design)
+ 3. Sequence Diagram (Behavioral Design)
 
 # Task 4: Sprint 1 Planning and Task Breakdown
 
