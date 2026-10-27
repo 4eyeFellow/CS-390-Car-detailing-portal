@@ -26,6 +26,8 @@ These were chosen because they provide a logical foundation of fundamental featu
 
 # Task 2: Use Case Diagram
 
+</br> This task has been uploaded as Use Case Diagram.png for ease of referencing.
+
 # Task 3: Software Design
 
  1. Class Diagram (Structural Design)
