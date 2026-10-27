@@ -38,9 +38,9 @@ Complete in project.
 
 # Contributions
 </br>
-</br>F
+</br>Finch Gerwe
   </br>Developer/SCRUM Master
-  </br> ...
+  </br> Completed the Use Case Diagram, discussed user stories with the group to establish first sprint
   </br>Contribution: 25%
 </br>
 </br>Z
