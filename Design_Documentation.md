@@ -45,9 +45,9 @@ Complete in project.
   </br> Completed the Use Case Diagram, discussed user stories with the group to establish first sprint
   </br>Contribution: 25%
 </br>
-</br>Z
+</br>Zeke Grant
   </br>Developer
-  </br> ...
+  </br> Supabase Setup and internal connections
   </br>Contribution: 25%
 </br>
 </br>Lily Kate McConnell
