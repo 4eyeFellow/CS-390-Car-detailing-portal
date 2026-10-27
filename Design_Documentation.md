@@ -55,7 +55,7 @@ Complete in project.
   </br>Filled out Task 1 after group discussion, completed the Class Diagram, and set up Design_Documentation.md.
   </br>Contribution: 25%
 </br>
-</br>J
+</br>Jakub Nowicki
   </br>Developer
-  </br>...
+  </br>Completed Task 4: set up Sprint 1 on the project board, broke the selected user stories into sub-issues
   </br>Contribution: 25%
