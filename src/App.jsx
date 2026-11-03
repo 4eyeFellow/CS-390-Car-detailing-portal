@@ -15,6 +15,10 @@ import SelectDate from './pages/form/SelectDate'
 import ReviewSubmit from './pages/form/ReviewSubmit'
 import Confirmation from './pages/form/Confirmation'
 
+// Supabase imports
+import { useEffect } from 'react'
+import { supabase } from './lib/supabaseClient'
+
 function App() {
   const [page, setPage] = useState('navigate_to')
 
