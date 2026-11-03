@@ -1,0 +1,64 @@
+
+/* GLOBAL STYLES */
+/* These apply to every page. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* TEXT */
+
+h1 {
+  color: black;
+  font-size: 32px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+}
+
+/* PAGE CONTAINER */
+/* Use className="page" on each page. */
+
+.page {
+  padding: 20px;
+}
+
+/* BUTTONS */
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* FORM INPUTS */
+
+input, select, textarea {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* BASIC LAYOUT */
+
+.container {
+  padding: 10px;
+}
