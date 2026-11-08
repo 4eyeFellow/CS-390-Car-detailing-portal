@@ -19,7 +19,7 @@ function GetClientDetails({ navigate }) {
       Phone Number: <br /><br /><input type="text" placeholder="Enter phone number" />
       </label>
       <hr />
-      <button type="submit"></button>
+      <button type="submit">Submit</button>
       </form>
       
       <p>Client information form will go here.</p>
