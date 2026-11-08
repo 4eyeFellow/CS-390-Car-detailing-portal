@@ -3,15 +3,7 @@ function GetClientDetails({ navigate }) {
     <div className="page">
       <h1>Client Details</h1>
       <label>
-       First Name: <br /><br /><input type="text" placeholder="Enter first name" />
-      </label>
-      <hr />
-      <label>
-       Last Name: <br /><br /><input type="text" placeholder="Enter last name" />
-      </label>
-      <hr />
-      <label>
-       Address for detailing: <br /><br /><input type="text" placeholder="Enter detailing address" />
+       Full Name: <br /><br /><input type="text" placeholder="Enter  name" />
       </label>
       <hr />
       <label>
