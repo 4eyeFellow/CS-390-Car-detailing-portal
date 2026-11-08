@@ -1,3 +1,5 @@
+import { supabase } from '../../../lib/supabaseClient'   // '../../lib/...' from pages/form/
+const { data, error } = await supabase.from('packages').select('*')
 function GetClientDetails({ navigate }) {
   return (
     <div className="page">
