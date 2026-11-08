@@ -1,10 +1,15 @@
 import { supabase } from '../../lib/supabaseClient'   // '../../lib/...' from pages/form/
+import { createClient } from '@supabase/supabase-js'
 const { data, error } = await supabase.from('packages').select('*')
+
+
+//function UpdateDatabase {}
+
 function GetClientDetails({ navigate }) {
   return (
     <div className="page">
       <h1>Client Details</h1>
-      <form >
+      <form onSubmit={handleSubmit}>
       <label>
        Username: <br /><br /><input name="id" type="text" placeholder="Enter username" />
       </label>
