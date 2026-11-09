@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { supabase } from '../../lib/supabaseClient'
 
 const conditions = ['Good', 'Average', 'Bad']
 
@@ -7,15 +8,40 @@ function GetCarDetails({ navigate }) {
   const [damageNotes, setDamageNotes] = useState('')
   const [repainted, setRepainted] = useState(false)
   const [error, setError] = useState('')
+  const [saving, setSaving] = useState(false)
 
   function handleConditionChange(event) {
     setCondition(event.target.value)
     setError('')
   }
 
-  function handleContinue() {
+  async function handleContinue() {
     if (!condition) {
       setError('Please select the condition of your car.')
+      return
+    }
+
+    setSaving(true)
+    setError('')
+
+    const { data: { user } } = await supabase.auth.getUser()
+
+    if (!user) {
+      setError('Please sign in to save your car details.')
+      setSaving(false)
+      return
+    }
+
+    const { error: saveError } = await supabase.from('vehicles').insert({
+      owner_id: user.id,
+      condition,
+      damage_notes: damageNotes.trim() || null,
+      repainted
+    })
+
+    if (saveError) {
+      setError('Your car details could not be saved. Please try again.')
+      setSaving(false)
       return
     }
 
@@ -84,8 +110,8 @@ function GetCarDetails({ navigate }) {
         <button onClick={() => navigate('navigate_to')}>
           Back to Navigation
         </button>
-        <button onClick={handleContinue}>
-          Continue
+        <button onClick={handleContinue} disabled={saving}>
+          {saving ? 'Saving...' : 'Continue'}
         </button>
       </div>
     </div>
