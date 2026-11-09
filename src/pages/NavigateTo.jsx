@@ -2,11 +2,21 @@
 
 // THIS IS A TEMPORARY PAGE FOR NAVIGATION PURPOSES ONLY.
 
+import { useAuth } from '../lib/useAuth'
+
 function NavigateTo({ navigate }) {
+  const { user, profile, signOut } = useAuth()
+
   return (
     <div className="page">
       <h1>Navigation</h1>
       <p>THIS IS A TEMPORARY PAGE FOR NAVIGATION PURPOSES ONLY.</p>
+      <p>
+        {user
+          ? <>Signed in as <strong>{profile?.full_name || user.email}</strong> ({profile?.role}){' '}
+              <button onClick={signOut}>Sign Out</button></>
+          : 'Not signed in.'}
+      </p>
       <p>Select a page to view.</p>
 
       <div className="container">

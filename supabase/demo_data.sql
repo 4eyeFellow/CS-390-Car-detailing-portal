@@ -6,7 +6,7 @@ update public.profiles set full_name = 'Demo Client One',   phone = '812-555-010
 update public.profiles set full_name = 'Demo Client Two',   phone = '812-555-0102' where email = 'demo2@example.com';
 update public.profiles set full_name = 'Demo Client Three', phone = '812-555-0103' where email = 'demo3@example.com';
 
-insert into public.vehicles (owner_id, make, model, year, color, condition_notes)
+insert into public.vehicles (owner_id, make, model, year, color, damage_notes)
 select p.id, x.make, x.model, x.year, x.color, x.notes
 from (values
   ('demo1@example.com', 'Ford',   'F-150',  2019, 'Blue',  'Mud on floor mats'),
