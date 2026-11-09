@@ -4,7 +4,13 @@
 
 -- Roles: 'admin' becomes 'owner', and 'employee' is new.
 -- Existing admin accounts become owner automatically.
-alter type public.user_role rename value 'admin' to 'owner';
+do $$ begin
+  if exists (select 1 from pg_enum e join pg_type t on t.oid = e.enumtypid
+             where t.typname = 'user_role' and e.enumlabel = 'admin') then
+    alter type public.user_role rename value 'admin' to 'owner';
+  end if;
+end $$;
+alter type public.user_role add value if not exists 'owner';
 alter type public.user_role add value if not exists 'employee';
 
 -- Role checks. Comparisons use role::text so this file can run in one transaction.
@@ -91,10 +97,33 @@ revoke execute on function public.set_user_role(text, text), public.get_client_l
 grant execute on function public.set_user_role(text, text), public.get_client_loyalty(),
   public.is_staff(), public.is_owner() to authenticated;
 
--- Vehicle fields used by the car details form (US 2)
+-- Vehicle fields used by the car details form (US 2).
+-- Some of these may already exist (added in the dashboard), so only add what's missing.
 alter table public.vehicles alter column make drop not null;
 alter table public.vehicles alter column model drop not null;
-alter table public.vehicles rename column condition_notes to damage_notes;
-alter table public.vehicles
-  add column condition text check (condition in ('Good', 'Average', 'Bad')),
-  add column repainted boolean not null default false;
+
+do $$ begin
+  -- Old column name was condition_notes. Keep its data in damage_notes.
+  if exists (select 1 from information_schema.columns
+             where table_schema = 'public' and table_name = 'vehicles' and column_name = 'condition_notes') then
+    if exists (select 1 from information_schema.columns
+               where table_schema = 'public' and table_name = 'vehicles' and column_name = 'damage_notes') then
+      update public.vehicles set damage_notes = coalesce(damage_notes, condition_notes);
+      alter table public.vehicles drop column condition_notes;
+    else
+      alter table public.vehicles rename column condition_notes to damage_notes;
+    end if;
+  end if;
+end $$;
+
+alter table public.vehicles add column if not exists damage_notes text;
+alter table public.vehicles add column if not exists condition text;
+alter table public.vehicles add column if not exists repainted boolean default false;
+
+-- Only allow the three conditions the form offers (existing rows aren't re-checked)
+do $$ begin
+  if not exists (select 1 from pg_constraint where conname = 'vehicles_condition_check') then
+    alter table public.vehicles add constraint vehicles_condition_check
+      check (condition in ('Good', 'Average', 'Bad')) not valid;
+  end if;
+end $$;
