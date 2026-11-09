@@ -1,18 +1,53 @@
-import { supabase } from '../../lib/supabaseClient'   // '../../lib/...' from pages/form/
+import { supabase } from '../../lib/supabaseClient'
 import { useState} from "react"
-const { data, error } = await supabase.from('packages').select('*')
+const { data, error } = await supabase.from('profiles').select('*')
 
 function GetClientDetails({ navigate }) {
+  const [fullName, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [role, setRole] = useState('client')
+  const [formError, setFormError] = useState(null)
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    if (!fullName || !phone || !email){
+      setFormError('Please fill out all fields.')
+      return
+    }
+    if (!(email.includes('@'))){
+      setFormError('Please enter valid email address.')
+      return
+    }
+    
+
+    const { data, error } = await supabase
+      .from('public.profiles')
+      .insert([{role: role.toString(), full_name: fullName.toString(), phone: phone.toString(), email: email.toString()}])
+      .select('*')
+
+    if (error) {
+        console.log(error)
+        setFormError('failure!')
+        return
+    }
+    if (data) {
+        console.log(data)
+        setFormError('Success!')
+    }
+  }
   return (
     <div className="page">
       <h1>Client Details</h1>
       <form onSubmit={handleSubmit}>
+      <p style={{color: 'red'}}>{formError}</p>
       <label>
        Username: <br /><br /><input name="id" type="text" placeholder="Enter username" />
       </label>
       <hr />
       <label>
-       Full Name: <br /><br /><input type="text" id="full_name" value="full_name" onChange={(e) => setName(e.target.value)} placeholder="Enter name" />
+       Full Name: <br /><br /><input type="text" id="full_name" onChange={(e) => setName(e.target.value)} placeholder="Enter name" />
       </label>
       <hr />
       <label>
@@ -25,8 +60,7 @@ function GetClientDetails({ navigate }) {
       <hr />
       <button type="submit">Submit</button>
       </form>
-      
-      <p>Client information form will go here.</p>
+      <br />
       <button onClick={() => navigate('navigate_to')}>
         Back to Navigation
       </button>
