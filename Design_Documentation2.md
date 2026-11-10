@@ -28,5 +28,5 @@ Contribution: 25%
 
 Jakub Nowicki<br>
 Developer<br>
-User Story 2, issues #45 and #46, started issue #47<br>
+User Story 2, issues #45, #46 and #47 <br>
 Contribution: 25%
