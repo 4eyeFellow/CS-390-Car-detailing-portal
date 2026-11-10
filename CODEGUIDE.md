@@ -114,3 +114,68 @@ For now, navigation is handled through `App.jsx` rather than actual URLs. Refres
 The purpose of this setup is to give everyone a working starting point to build on.
 
 ---
+
+# 5. DATABASE (SUPABASE) & ACCOUNTS
+
+## ONE-TIME SETUP
+
+The database keys are **not** on GitHub. Each person makes their own settings file:
+
+1. In VS Code's Explorer, right-click the empty space under the files (the main folder, next to `package.json`) and choose **New File**.
+2. Name it exactly `.env.local` (dot at the start, no `.txt`).
+3. Paste in the 2 lines from the group chat (`VITE_SUPABASE_URL=...` and `VITE_SUPABASE_PUBLISHABLE_KEY=...`) and save.
+4. Restart the website: **Control + C**, then `npm run dev`.
+
+`.env.local` is ignored by git, so it will never be committed. Never put the Supabase **secret** key in the project.
+
+## TALKING TO THE DATABASE
+
+```js
+import { supabase } from '../lib/supabaseClient'      // from src/pages/
+import { supabase } from '../../lib/supabaseClient'   // from src/pages/form/ or src/pages/admin/
+```
+
+Every call returns `{ data, error }`. Always check `error` and `console.log(error)` while testing.
+
+## WHO IS SIGNED IN
+
+```js
+import { useAuth } from '../lib/useAuth'
+
+const { user, profile, isStaff, isOwner, signOut } = useAuth()
+// user.id      -> use this as owner_id / client_id when saving
+// profile      -> { full_name, phone, email, role }  (use it to pre-fill forms)
+// role         -> 'client', 'employee', or 'owner'
+```
+
+**The database only accepts saves from someone who is signed in** (row level security keeps each client's info private). If a save fails, check that you're signed in first.
+
+## COMMON EXAMPLES
+
+```js
+// Save the signed-in client's contact info (UPDATE, profiles are created automatically at sign up)
+await supabase.from('profiles').update({ full_name, phone }).eq('id', user.id)
+
+// Save a car
+await supabase.from('vehicles').insert({
+  owner_id: user.id, make, model, year, color,
+  condition,            // 'Good', 'Average' or 'Bad'
+  damage_notes,
+  repainted             // true / false
+})
+
+// Read the menu
+await supabase.from('packages').select('*')
+```
+
+Do **not** insert into `profiles` or change `role`. The database blocks both on purpose.
+
+## TEST ACCOUNTS
+
+- Clients: `demo1@example.com`, `demo2@example.com`, `demo3@example.com` (password in the group chat)
+- Or create your own on the **Sign In** page (**Create an account**).
+- To make someone an employee: the owner signs in, opens **Admin Dashboard**, and adds them by email.
+
+## DATABASE CHANGES
+
+Changes to tables go in a new file in `supabase/migrations/` and are applied with `npx supabase db push --linked` (ask Zeke). Don't edit tables by hand in the Supabase dashboard.
