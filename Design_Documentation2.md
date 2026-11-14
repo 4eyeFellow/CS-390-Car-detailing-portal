@@ -11,22 +11,3 @@ Created using PlantText. We chose a client-server architecture, because our soft
 
 
 
-Finch Gerwe<br>
-Developer/SCRUM Master<br>
-User Story 1, issues #42 and #43, started issue #44<br>
-Contribution: 25%
-
-Zeke Grant<br>
-Developer<br>
-Supabase setup and internal connections, User Story 13 work<br>
-Contribution: 25%
-
-Lily Kate McConnell<br>
-Developer/Project Owner<br>
-Made the React project with a temporary navigation and pages, created CODEGUIDE.md to help others understand React, helped connect project the database, completed the UML Diagram, recorded retrospective notes, and user story 14 work. <br>
-Contribution: 25%
-
-Jakub Nowicki<br>
-Developer<br>
-User Story 2, issues #45 and #46, started issue #47<br>
-Contribution: 25%
