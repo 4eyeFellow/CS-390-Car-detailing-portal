@@ -1,21 +1,21 @@
-**Milestone 1: Preliminary Project Requirements & Plan**<\br>
+**Milestone 1: Preliminary Project Requirements & Plan**
 
-Finch Gerwe
-Developer/SCRUM Master
-Requirements Elicitation Plan and 3 user stories, 3 sets of acceptance criteria
-Contribution: 25%
+Finch Gerwe</br>
+Developer/SCRUM Master</br>
+Requirements Elicitation Plan and 3 user stories, 3 sets of acceptance criteria</br>
+Contribution: 25%</br>
 
-Zeke Grant
-Developer
-Project overview and 3 user stories, 3 sets of acceptance criteria
-Contribution: 25%
+Zeke Grant</br>
+Developer</br>
+Project overview and 3 user stories, 3 sets of acceptance criteria</br>
+Contribution: 25%</br>
 
-Lily Kate McConnell
-Developer/Project Owner
-Abstract revision and 3 user stories, 3 sets of acceptance criteria
-Contribution: 25%
+Lily Kate McConnell</br>
+Developer/Project Owner</br>
+Abstract revision and 3 user stories, 3 sets of acceptance criteria</br>
+Contribution: 25%</br>
 
-Jakub Nowicki
-Developer
-3 user stories, 3 sets of acceptance criteria
-Contribution: 25%
+Jakub Nowicki</br>
+Developer</br>
+3 user stories, 3 sets of acceptance criteria</br>
+Contribution: 25%</br>
