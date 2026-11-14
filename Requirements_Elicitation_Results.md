@@ -30,22 +30,3 @@
 | 7 | **“As a client, I want to review a complete summary of my appointment, including selected services, total cost, date, time, and terms, before submitting my appointment, and receive a confirmation of these details by email, so that I can verify my appointment information and have a record of my booking.”** | - There are many important terms and conditions<br>- Terms and conditions would need to be written out and reviewed more specifically later | Revise the criteria for this user story to include that the displayed terms and conditions are able to be customized by admin. | Terms and policies are important, numerous, and may change over time. The client should have full, custom control over this, rather than our team trying to outline policies ourselves. |
 | 8 | **No previous payment requirement** | Client does want the ability to accept payments in the future, particularly for deposits, however it is not something his current system includes, and thus said it is not his first priority. | No current changes or additions to the requirements. However, we should design a system with this in mind as a future development.  | Because of the client's emphasis on simplicity, statement that payment is not the first priority, and our time limit for this first iteration, the team decided not to make this a requirement for our first prototype, but to avoid any design decisions which may conflict with implementing a payment feature in the future. |
 
-</br>Finch Gerwe
-</br>Developer/SCRUM Master
-</br>Wrote up semi-structured interview, update the Project Overview, listed key findings, questions/topics, and elicitation activity
-</br>Contribution: 25%
-
-</br>Zeke Grant
-</br>Developer
-</br>Wrote up semi-structured interview, revise product backlog
-</br>Contribution: 25%
-
-</br>Lily Kate McConnell
-</br>Developer/Project Owner
-</br>Requirement change analysis, recorded and performed the semi-structured interview
-</br>Contribution: 25%
-
-</br>Jakub Nowicki
-</br>Developer
-</br>Revised product backlog: updated user stories #5, #6, #7, #11 and merged #9 into #8 based on interview findings, created new user stories #23, #25, #26
-</br>Contribution: 25%
