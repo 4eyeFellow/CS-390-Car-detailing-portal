@@ -38,25 +38,3 @@ These were chosen because they provide a logical foundation of fundamental featu
 # Task 4: Sprint 1 Planning and Task Breakdown
 
 Complete in project.
-
-# Contributions
-</br>
-</br>Finch Gerwe
-  </br>Developer/SCRUM Master
-  </br> Completed the Use Case Diagram, discussed user stories with the group to establish first sprint
-  </br>Contribution: 25%
-</br>
-</br>Zeke Grant
-  </br>Developer
-  </br> Supabase Setup and internal connections
-  </br>Contribution: 25%
-</br>
-</br>Lily Kate McConnell
-  </br>Developer/Project Owner
-  </br>Filled out Task 1 after group discussion, completed the Class Diagram, and set up Design_Documentation.md.
-  </br>Contribution: 25%
-</br>
-</br>Jakub Nowicki
-  </br>Developer
-  </br>Completed Task 4: set up Sprint 1 on the project board, broke the selected user stories into sub-issues
-  </br>Contribution: 25%
