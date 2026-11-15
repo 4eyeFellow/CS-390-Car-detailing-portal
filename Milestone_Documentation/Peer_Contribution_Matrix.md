@@ -1,4 +1,4 @@
-#**Milestone 1: Preliminary Project Requirements & Plan**
+# **Milestone 1: Preliminary Project Requirements & Plan**
 
 Finch Gerwe</br>
 Developer/SCRUM Master</br>
@@ -20,7 +20,7 @@ Developer</br>
 3 user stories, 3 sets of acceptance criteria</br>
 Contribution: 25%</br>
 
-#**Milestone 2: Revised Project Requirements & Plan**
+# **Milestone 2: Revised Project Requirements & Plan**
 
 Finch Gerwe</br>
 Developer/SCRUM Master</br>
@@ -45,7 +45,7 @@ Developer</br>
 Revised product backlog: updated user stories #5, #6, #7, #11 and merged #9 into #8 based on interview findings, created new user stories #23, #25, #26</br>
 Contribution: 25%</br>
 
-#**Milestone 3: Software Design & Sprint 1 Planning**
+# **Milestone 3: Software Design & Sprint 1 Planning**
 
 Finch Gerwe</br>
 Developer/SCRUM Master</br>
@@ -67,7 +67,7 @@ Developer</br>
 Completed Task 4: set up Sprint 1 on the project board, broke the selected user stories into sub-issues</br>
 Contribution: 25%</br>
 
-#**Milestone 4: Software Architecture & Sprint 1 Execution**
+# **Milestone 4: Software Architecture & Sprint 1 Execution**
 
 Finch Gerwe</br>
 Developer/SCRUM Master</br>
@@ -89,4 +89,4 @@ Developer</br>
 User Story 2, issues #45 and #46, started issue #47</br>
 Contribution: 25%</br>
 
-#**Milestone 5: Sprint 2 Planning & Execution**
+# **Milestone 5: Sprint 2 Planning & Execution**
