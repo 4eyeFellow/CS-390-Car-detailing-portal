@@ -1,4 +1,4 @@
-Use Case Diagram: [Use Case Diagram.png](./Use%Case%Diagram.png)</br>
+Use Case Diagram: [UseCaseDiagram.png](./UseCaseDiagram.png)</br>
 The use case diagram provides a high-level visual of what the system does and who interacts with it.</br>
 
 Class Diagram: [ClassDiagrams.png](./ClassDiagram.png)</br>
