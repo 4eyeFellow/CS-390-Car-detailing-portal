@@ -1,3 +1,13 @@
+# Requirments Elicitation Plane
+## **Elicitation Technique Selection & Justification**<br/><br/>
+We plan to begin with a Semi-Structured Interview where Lily will meet with Carson McConnell to identify initial key requirements and issues that he is currently facing with approaching the problem. We would primarily aim to develop an understanding of what information is necessary to collect from the Carson's users. We also intend to potentially collect feedback on the initial design sketches included in the presentation. We intend to do this through a 3 step interview, as recommended, beginning with running our current understanding and assumptions of what Carson needs by him, then asking the new information we need to know, such as clientele demographic information, and ending with final questions, potentially presenting the initial mockup for the project if we feel it remains relevant.
+<br/><br/>
+## **Target Stakeholders**<br/><br/>
+Carson McConnell, owner of Evansville Mobile Car Detailing<br/>
+Clients of Evansville Mobile Car Detailing
+</br>
+
+# Requirments Elicitation Results
 1. Elicitation Activity
 </br>Date: October 4th, 2026
 </br>Technique: Semi-Structured Interview with minor Prototyping Aspect
@@ -6,7 +16,8 @@
 </br>Activity Overview: Met in person to discuss a set of topics and questions determined by the rest of the team and adjusted during the interview by Lily to clarify, finished by presenting our intial proposed solution for feedback.
 </br> LINKS TO INTERVIEW RECORDING, TRANSCRIPT, NOTES, & CONSENT FORM: https://docs.google.com/document/d/17U6nFQCpzwBrqlfj5LmGllHPcx4q_-m08BT_RYFG5Ks/edit?usp=sharing
 
-</br>2. Questions/Topics
+</br>
+2. Questions/Topics
 </br>What does the current process look like?
 </br>Pain points with the current system
 </br>Solution essentials and key features
@@ -14,10 +25,12 @@
 </br>Opinions on the current mockup solution
 </br>We have a full list of the questions linked under Outside-work-links.md, as well as the interview notes and recording
 
-</br>3. Key Findings
+</br>
+3. Key Findings
 </br>The primary problem with the current system is a lack of information organization and the tediousness of accessing customer information. There are no current automations in place, so the various contact points need to be checked and managed manually. The most important aspect of the solution is ease of use for the client. The solution should also be simple and minimalist so that clients can use it easily. Part of this is the ability to book an appointment on your phone as opposed to needing to open your laptop, however, this solution shouldn't use an app as that might raise the barrier to entry too high. While user accounts would be helpful, the priority is organizing client information with the appointment. Though the ability to cancel an appointment might make accounts more appealing. The solution should involve centralizing the information needed for a job into somewhere that is easy to access. The solution should also present the client with policies and requirements before they book the appointment. The information required about the car is less than expected. We primarily need to collect data on the condition of the car, as opposed to the make and model and other details. 
 
-</br>4. Requirements Change Analysis
+</br>
+4. Requirements Change Analysis
 
 | # | Milestone 1 Requirement | Client Finding | Decision | Reason |
 |---|---|---|---|---|
