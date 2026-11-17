@@ -1,3 +1,6 @@
+# Sprint 1 Reflection
+
+In sprint 1 we attempted to complete user stories 1, 2, 13, and 14 as listed above. We were able to fully complete both user stories 2 and 14, however we could not complete user story 2 and need to revise our attempts to complete user story 13. Specifically, in user story 2 we failed to have the information save to supabase and in user story 13 we need to ensure that saved information is appropriately autofilled with our forms. We intend to tackle these incomplete subtasks in our Sprint 2, in order to ensure that we have full functionality for our basic features and to allow for relative independence between the tasks we assign to developers. In the next sprint, we intend to create a better initial plan so that we don't lock developers behind things that have yet to be completed. 
 
 # TO DO
 - REFLECT & CHOOSE USER STORIES: Review Sprint 1 outcomes and your current Product Backlog. Identify completed, incomplete, or deferred user stories. In your newly created Sprint 2_Documentation.md file, explain whether unfinished work returns to the Product Backlog or is selected for Sprint 2.<br>
